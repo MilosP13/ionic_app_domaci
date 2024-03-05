@@ -50,7 +50,7 @@ export class LoginPage implements OnInit {
     }
 
     if(!this.user.password){
-      this.showToast("Enter passwordd");
+      this.showToast("Enter password");
       return false;
     }
 
